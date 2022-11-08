@@ -323,7 +323,7 @@ button {
 .about__img {
   max-width: 400px;
   height: 700px;
-  grid-column: span 2;
+  object-fit: cover;
 }
 .about__skills {
   display: flex;
