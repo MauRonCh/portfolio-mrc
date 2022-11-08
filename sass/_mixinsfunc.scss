@@ -1,0 +1,12 @@
+// Utils
+
+@mixin flex ($justify) {
+    display: flex;
+    justify-content: $justify;
+    align-items: center;
+}
+
+@mixin max_width ($max) {
+    width: 100%;
+    max-width: $max;
+}
