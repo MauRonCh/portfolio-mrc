@@ -321,9 +321,10 @@ button {
   display: flex;
 }
 .about__img {
-  max-width: 400px;
+  max-width: 500px;
   height: 700px;
   object-fit: cover;
+  border-radius: 20px;
 }
 .about__skills {
   display: flex;
@@ -378,7 +379,7 @@ button {
 .skills__block {
   width: 100%;
   max-width: 500px;
-  height: 300px;
+  height: auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -394,7 +395,7 @@ button {
   border-radius: 10px;
   padding: 20px 80px;
   width: 100%;
-  height: 250px;
+  height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
